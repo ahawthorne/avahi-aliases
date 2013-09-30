@@ -1,6 +1,4 @@
 #!/bin/bash
-#IPADDRESS=`ifconfig | head -n2 | tail -n1 | awk '{print $2}' | awk -F : '{print $2}'`
-#HOSTNAME=`avahi-resolve-host-name -a  | awk '{ print $2 }'`
 SCRIPT_PATH=${0%/*}
 . $SCRIPT_PATH/lib/coloured_messages.sh
 

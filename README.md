@@ -16,7 +16,7 @@ Do this:
 
 ### systemd
 
-Included is an installer for a systemd service. I've only tested this on Fedora 17.
+Included is an installer for a systemd service.
 
     sudo ./install-systemd
     sudo systemctl <start|stop|restart> avahi-alias.serivce
@@ -29,4 +29,3 @@ Python bindings seem to have been in avahi-tools pre F13 and have been moved.
 Ubuntu 10+
 ----------
 Requires python-dbus, python-avahi
-
